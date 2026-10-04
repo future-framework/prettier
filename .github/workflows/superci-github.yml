@@ -1,5 +1,5 @@
-# prettier/prettier's dev-test.yml: test (ubuntu-latest, Node.js 26, FULL_TEST + coverage), for the Superaction scoreboard.
-name: Superaction (GitHub)
+# prettier/prettier's dev-test.yml: test (ubuntu-latest, Node.js 26, FULL_TEST + coverage), for the SuperCI scoreboard.
+name: SuperCI (GitHub)
 
 on:
   workflow_dispatch: {}

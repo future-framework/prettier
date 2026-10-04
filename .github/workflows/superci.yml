@@ -1,5 +1,5 @@
-# AWS experiment: one spot machine per job, no fan-out. prettier/prettier's dev-test.yml: test (ubuntu-latest, Node.js 26, FULL_TEST + coverage), for the Superaction scoreboard.
-name: Superaction (AWS)
+# prettier/prettier's dev-test.yml: test (ubuntu-latest, Node.js 26, FULL_TEST + coverage), for the SuperCI scoreboard.
+name: SuperCI
 
 on:
   workflow_dispatch: {}
@@ -9,8 +9,8 @@ permissions:
 
 jobs:
   test:
-    name: test / superaction-aws
-    runs-on: superaction-aws
+    name: test / superci
+    runs-on: superci
     timeout-minutes: 30
     env:
       ENABLE_CODE_COVERAGE: true
